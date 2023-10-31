@@ -1,8 +1,16 @@
+import SideBar from "./components/SideBar";
+import MainBar from "./components/MainBar";
+import "./App.css";
+import { Provider } from "react-redux";
+import appStore from "./redux-store/store"
 function App() {
   return (
-    <div className="">
-     <h1 className="text-red-900">Hello World</h1>
+    <Provider store={appStore}>
+    <div className="bg-gray-400 flex">
+     <SideBar/>
+     <MainBar/>
     </div>
+    </Provider>
   );
 }
 

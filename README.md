@@ -5,6 +5,6 @@
 
 - Tech stack
  - create-react-app for react app using webpack
- - Styling using Css
+ - Styling using Tailwind Css
  - react-router-dom for navigation
  - redux to store data
